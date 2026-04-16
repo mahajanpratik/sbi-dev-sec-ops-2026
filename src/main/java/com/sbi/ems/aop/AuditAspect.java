@@ -23,7 +23,7 @@ import org.springframework.stereotype.Component;
  *     - Exception message is logged for 5xx; full stack trace for DEBUG only
  *     - PII fields (salary, email, phone) never appear in any log entry
  *
- *   RBI Compliance:
+ *   RBI Compliance:new RBI 
  *     Audit logging records WHO called WHAT and WHEN — without logging the
  *     sensitive payload. The structured log entries can be ingested into a
  *     SIEM for real-time anomaly detection (e.g. unusual salary access patterns).
